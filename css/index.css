@@ -8,6 +8,7 @@
 
 :root {
   --dark-color: #000;
+  --font-family: 'Roboto', sans-serif; /* Add a modern font */
 }
 
 .night {
@@ -26,7 +27,7 @@
   top: 0;
   left: 0;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-family); /* Use the modern font */
 
   display: flex;
   flex-wrap: wrap;
@@ -90,6 +91,7 @@ a {
   font-weight: 600;
   color: #AAAAAA;
   font-size: medium;
+  font-family: var(--font-family); /* Apply the modern font to text */
 }
 
 .btn:hover {
